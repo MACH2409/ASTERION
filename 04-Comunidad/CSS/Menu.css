@@ -1,0 +1,71 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+/*Icono*/
+.icon{
+  width: 0.5vw;
+}
+/*Menú*/
+nav{
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  font-family: 'Futura Md BT';
+}
+nav ul {
+  margin-top: -3em;
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 0em;
+ }
+nav li {
+  line-height: 4rem;
+  position: relative
+}
+nav ul{
+  display: inline-flex;
+}
+nav li ul{
+  position: absolute;
+  display: inline-flex;
+}
+nav a{
+  text-decoration: none;
+  display: flex;
+  padding: 0 25px;
+  margin-top: 0vh;
+  color: black;
+  font-size: 12px;
+}
+nav a:hover {
+  color: grey;
+}
+.AsterionLogo{
+  position: center;
+  padding: 0 7.5px;
+  padding-top: 3vh;
+  margin-bottom: 1.8vh;
+  width: 9.5vw;
+  height: 5vh
+}
+.cero2{
+  margin-left: 36vw;
+}
+.found{
+  margin-top: 3vh;
+  margin-left: 5vw;
+  margin-right: -2vw;
+}
+.Buscar{
+  width: 1.7vw;
+}
+/*PRIMER MENU*/
+nav > ul {
+  margin-top: -5px;
+  background-color: white;
+  display: flex;
+  width: 100%
+}

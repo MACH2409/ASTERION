@@ -1,0 +1,87 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+/*ScrollBar*/
+::-webkit-scrollbar-track
+{
+  border: 0px ;
+  background-color: white;
+}
+
+::-webkit-scrollbar
+{
+  width: 7px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: #E33933;
+}
+/*Generalidades*/
+body{
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Futura Md BT';
+}
+/*Contenedor*/
+.contenedor-seleccion{
+	margin-top: 5vh;
+}
+/*Conocenos*/
+.Nosotros{
+	margin-right: 54vw;
+	margin-top: 19vh;
+	margin-left: 23vw;
+}
+.Img1Link{
+	width: 22.5vw;
+}
+.Nosotros:hover{
+    opacity: 65%;
+}
+.TitleNosotros{
+	margin-top: 1.3vh;
+}
+.TitleNosotros:hover{
+	opacity: 100%;
+}
+.Title1{
+	font-family: 'UEFA NATIONS TITLING';
+}
+.Cuerpo1{
+	font-size: 1.1vw;
+	text-align: justify;
+}
+/*Unetenos*/
+.Unetenos{
+	margin-right: 25vw;
+	margin-left: 52vw;
+	margin-top: -79.5vh;
+	margin-bottom: 21vh;
+}
+.Img2Link{
+	width: 22.6vw;
+}
+.Unetenos:hover{
+	opacity: 65%;
+}
+.TitleUnetenos{
+	margin-top: 1.3vh;
+}
+.TitleUnetenos:hover{
+	opacity: 100%;
+}
+.Title2{
+	font-family: 'UEFA NATIONS TITLING';
+}
+.Cuerpo2{
+	font-size: 1.1vw;
+	text-align: justify;
+}

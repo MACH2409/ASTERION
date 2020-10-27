@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Asterion | Sobre Asterion</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/Menu.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Register.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Footer.css">
+    <link rel="icon" class="icono"ctype="image/css" href="Imágenes/A.png">
+</head>
+<body>
+    <div class="contenedor-menu">
+    	<nav>
+    		<ul>
+    			<li><a href="../../01-PaginaPrincipal/PaginaPrincipal.html"><img class="AsterionLogo" src="Imágenes/ASTERION.png"></a></li>
+    			<li class="cero2"><a href="../../02-SobreAsterion/Seleccionar.html">QUE ES ASTERION</a></li>
+    			<li><a href="../../03-Versiones/Seleccionar.html">VERSIONES</a></li>
+    			<li><a href="../../04-Comunidad/Noticias.html">COMUNIDAD</a></li>
+    			<li><a href="../../05-Dispositivos/Dispositivos.html">DISPOSITIVOS</a></li>
+    			<li class="found"><a href=""><img class="Buscar" src="Imágenes/Buscar.png"></a></li>
+    		</ul>    		
+    	</nav>
+    </div>
+    <div class="contenedor-login">
+        <section class="Title">
+            <img class="logoLogin" src="Imágenes/ASTERION.png">
+            <h4 class="descripcion">SE UN MIEMBRO</h4>
+        </section>
+        <form method="post" action="mailto:asterion20beta@gmail.com">
+        <table>
+            <tr>
+                <td><input type="text" name="nombre" placeholder="Nombres"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="apellido" placeholder="Apellidos"></td>
+            </tr>
+            <tr>
+                <td><input type="tel" name="telefono" placeholder="Telefóno Particular"></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" placeholder="Correo electrónico" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"></td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento</td>
+                <td><input class="fecha" type="date" name="cumpleaños"></td>
+            </tr>
+            <tr>
+                <td>Género</td>
+                <td><input class="mover" type="radio" name="genero" value="hombre"></td>
+                <td for="hombre" id="señal">Hombre</td>
+                <td><input class="mover" id="mover" type="radio" name="genero" value="mujer"></td>
+                <td for="mujer" class="señal">Mujer</td>
+            </tr>
+            <tr>
+                <td><textarea type="" name="contraseña" placeholder="Experiencia laboral" rows="4" cols="30">¿Por qué quieres trabajar con nosotros?</textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><b><input  class="btn" type="submit" value="Enviar Correo"></b></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<footer>
+    <div class="footer">
+        <section class="redes"> 
+            <div class="facebook">
+                <a id="facebook" href="https://www.facebook.com/"><img class="iconos" src="Imágenes/facebook.png"></a>
+            </div>
+            <div class="instagram">
+                <a id="instagram" href="https://www.instagram.com/"><img class="iconos" src="Imágenes/instagram.png"></a>
+            </div>
+        </section>
+        <section class="doc">
+            <div class="terminos">
+               <a class="otros1" href="">Términos y Condiciones</a>
+            </div>
+            <div class="politica">
+               <a class="otros2" href="">Política de Privacidad</a>
+            </div>
+        </section>
+    </div>
+</footer>
+</html>

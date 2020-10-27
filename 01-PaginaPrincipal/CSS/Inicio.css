@@ -1,0 +1,65 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+body{
+	font-family: 'Futura Md BT';
+	text-decoration: none;
+}
+/*ScrollBar*/
+::-webkit-scrollbar-track
+{
+  border: 0px ;
+  background-color: white;
+}
+
+::-webkit-scrollbar
+{
+  width: 7px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: #E33933;
+}
+/*Anuncio*/
+.contenedor-anuncio{
+	margin-bottom: 35vh;
+}
+.Principal{
+	width: 60vw;
+	margin-left: 38vw;
+	margin-top: 17vh;
+}
+.Letras{
+	display: flex;
+	margin-top: -65vh;
+	margin-left: 4vw;
+	margin-right: 65vw;
+}
+.TitleAnuncio{
+	font-family: 'Fiba';
+	font-size: 6.5vw;
+	margin-bottom: 1vh;
+}
+.Parrafo{
+	text-align: justify;
+	font-family: 'Futura Md BT';
+	font-size: 1.1vw;
+	margin-left: 4vw;
+	margin-right: 65vw;
+	margin-bottom: 0.5vh;
+}
+.btn{
+	margin-left: 4vw;
+	margin-top: 0.4vh;
+}
+.acerca{
+	text-decoration: none;
+	font-family: 'Futura Md BT';
+	font-size: 1vw;
+	color: #E33933;
+}

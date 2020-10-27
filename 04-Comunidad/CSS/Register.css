@@ -1,0 +1,129 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+/*ScrollBar*/
+::-webkit-scrollbar-track
+{
+  border: 0px ;
+  background-color: white;
+}
+
+::-webkit-scrollbar
+{
+  width: 7px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: black;
+}
+/*Generalidades*/
+a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Futura Md BT';
+}
+h4{
+  font-family: 'Futura Md BT';
+}
+h5{
+  margin-top: 1.7vh;
+  margin-left: 11.4vw;
+  font-family: 'Futura Md BT';
+  color: grey;
+}
+h6{
+  font-family: 'Futura Md BT';
+  font-size: 0.9vw;
+}
+/*Log In*/
+body{
+  background-image: url(Fighter.gif);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: 50% 0%;
+}
+.contenedor-login{
+  margin-top: 15vh;
+  margin-left: 38vw;
+}
+.logoLogin{
+  margin-top: 9vh;
+  margin-left: 4.5vw;
+  width: 14vw;
+}
+.descripcion{
+  font-family: 'Futura Md BT';
+  color: white;
+  text-align: justify;
+  font-size: 0.9vw;
+  margin-top: 3vh;
+  margin-left: 7.5vw;
+  margin-right: 42vw;
+  margin-bottom: 3vh;
+}
+form{
+  margin-left: -1vw;
+  margin-right: 40vw;
+  color: grey;
+  background-color: white;
+  opacity: 50%;
+}
+textarea{
+  margin-left: 2vw;
+}
+td{
+  color: black;
+  font-family: 'Futura Md BT';
+  font-size: 0.9vw;
+}
+label{
+  font-family: 'Futura Md BT';
+  font-size: 0.9vw;
+}
+input{
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: .5px solid grey;
+  color: grey;
+  margin-left: 3vw;
+  margin-right: -49vw;
+  margin-bottom: 1vh;
+}
+.fecha{
+  margin-left: -7vw;
+}
+.olvide{
+  margin-left: 5vw;
+  margin-bottom: 1vh;
+  font-size: 0.8vw;
+  color: #260973;
+}
+.mover{
+  margin-left: -3vw;
+}
+#mover{
+  margin-left: -13vw;
+}
+#señal{
+  margin-left: -11vw;
+  margin-right: 5vw;
+  display: flex;
+}
+.btn{
+  font-family: 'Futura Md BT';
+  background-color: #1E1E1E;
+  border-color: transparent;
+  color: white;
+  margin-top: 2vh;
+  margin-left: -12vw;
+  padding: 5px; 
+}
+.btn:hover{
+  background-color: #1E1E1E;
+  color: grey;
+}

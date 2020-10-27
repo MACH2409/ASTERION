@@ -1,0 +1,42 @@
+footer{
+	background-color: black;
+	bottom: 0;
+	font-family: 'Futura Md BT';
+	text-decoration: none;
+	margin-left: -40vw;
+	margin-top: 6vh;
+}
+.redes{
+	margin-left: 3vw;
+}
+.footer{
+	padding-top: 3vh;
+	padding-bottom: 1vh;
+}
+.instagram{
+	margin-left: 2.7vw;
+	margin-top: -3.8vh;
+}
+.iconos{
+	width: 1.5vw;
+}
+.doc{
+	margin-top: -5vh;
+	margin-left: 77vw;
+	padding-bottom: 3vh;
+}
+.otros1{
+	color: grey;
+    font-size: .8vw;
+}
+.otros2{
+	color: grey;
+	font-size: .8vw;
+}
+.terminos{
+	margin-top: 1vh;
+}
+.politica{
+	margin-top: -2.8vh;
+	margin-left: 9.7vw;
+}
